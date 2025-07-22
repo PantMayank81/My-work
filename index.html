@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nexG Platforms - Executive Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Presentation Controls -->
+        <div class="presentation-controls">
+            <div class="control-group">
+                <button class="btn btn--sm" id="prevSlide">← Previous</button>
+                <span class="slide-counter"><span id="currentSlide">1</span> / <span id="totalSlides">17</span></span>
+                <button class="btn btn--sm" id="nextSlide">Next →</button>
+            </div>
+            <div class="control-group">
+                <button class="btn btn--sm btn--secondary" id="fullscreenBtn">Full Screen</button>
+                <button class="btn btn--sm btn--secondary" id="editModeBtn">Edit Mode</button>
+                <button class="btn btn--sm btn--primary" id="exportBtn">Export to PowerPoint</button>
+            </div>
+        </div>
+
+        <!-- Slide Container -->
+        <div class="slides-wrapper">
+            <!-- Slide 1: Title Slide -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content title-slide">
+                    <div class="slide-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1749430639/pplx_project_search_images/bde73a06c4f04a53effa70a11c3ef28d77572d16.jpg" alt="Business executives meeting">
+                    </div>
+                    <div class="slide-text">
+                        <h1 class="editable slide-title">nexG Platforms: AI-Native CPaaS for Enterprise Communication at Scale</h1>
+                        <p class="subtitle editable">Smarter Engagement. Seamless Communication.</p>
+                        <div class="company-logo">
+                            <div class="logo-placeholder">nexG</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2: Market Transformation -->
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">The Enterprise Communication Landscape is Transforming</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1753166475/pplx_project_search_images/e17e29145a420059bcbcd069b8577ff398c20d89.jpg" alt="CPaaS components and ecosystem">
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <h3 class="editable">$30B by 2027</h3>
+                                <p class="editable">Global CPaaS Market (14.6% CAGR)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="editable">$1B+ by 2027</h3>
+                                <p class="editable">Indian Market (27% CAGR)</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="editable">20%+ shift</h3>
+                                <p class="editable">to WhatsApp & RCS by 2027</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="editable">97% of enterprises</h3>
+                                <p class="editable">plan GenAI adoption by 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3: Five Things About nexG -->
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">5 Things You Need to Know About nexG Platforms</h2>
+                    <div class="slide-body">
+                        <div class="numbered-list">
+                            <div class="list-item">
+                                <span class="number">1</span>
+                                <div class="item-content">
+                                    <h4 class="editable">Infotel Group Heritage</h4>
+                                    <p class="editable">20-year telecom expertise, 100% promoter-owned</p>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="number">2</span>
+                                <div class="item-content">
+                                    <h4 class="editable">Meta Business Partner</h4>
+                                    <p class="editable">Official status (January 2025) for early WhatsApp features</p>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="number">3</span>
+                                <div class="item-content">
+                                    <h4 class="editable">Massive Scale</h4>
+                                    <p class="editable">18B+ interactions annually, 500+ enterprise clients</p>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="number">4</span>
+                                <div class="item-content">
+                                    <h4 class="editable">AI-Native Platform</h4>
+                                    <p class="editable">Built for AI era with GenAI chatbot launch August 2025</p>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <span class="number">5</span>
+                                <div class="item-content">
+                                    <h4 class="editable">Superior Performance</h4>
+                                    <p class="editable">60K TPS capacity - 2.4x higher than closest competitor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 4: Enterprise Challenges -->
+            <div class="slide" data-slide="4">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Critical Challenges Facing Enterprise Communication</h2>
+                    <div class="slide-body">
+                        <div class="challenges-grid">
+                            <div class="challenge-item">
+                                <div class="challenge-icon">🔧</div>
+                                <h4 class="editable">Fragmented Systems</h4>
+                                <p class="editable">Creating integration complexity</p>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon">⚡</div>
+                                <h4 class="editable">Performance Bottlenecks</h4>
+                                <p class="editable">During peak events</p>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon">📋</div>
+                                <h4 class="editable">Rising Compliance</h4>
+                                <p class="editable">GDPR, DPDPA obligations</p>
+                            </div>
+                            <div class="challenge-item">
+                                <div class="challenge-icon">🤖</div>
+                                <h4 class="editable">Manual Processes</h4>
+                                <p class="editable">Lack of intelligence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 5: nexG REACH Platform -->
+            <div class="slide" data-slide="5">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">nexG REACH: The AI-Native Solution</h2>
+                    <div class="slide-body">
+                        <div class="platform-diagram">
+                            <div class="platform-center">
+                                <h3 class="editable">nexG REACH</h3>
+                                <p class="editable">AI-Native CPaaS Platform</p>
+                            </div>
+                            <div class="platform-features">
+                                <div class="feature-box">
+                                    <h4 class="editable">Unified Omnichannel API</h4>
+                                </div>
+                                <div class="feature-box">
+                                    <h4 class="editable">60K TPS Throughput</h4>
+                                </div>
+                                <div class="feature-box">
+                                    <h4 class="editable">AI-Native Architecture</h4>
+                                </div>
+                                <div class="feature-box">
+                                    <h4 class="editable">Enterprise-Grade Security</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 6: Performance Benchmarking -->
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Performance That Scales With Your Ambitions</h2>
+                    <div class="slide-body">
+                        <div class="comparison-table">
+                            <div class="table-header">
+                                <div></div>
+                                <div class="nexg-column">nexG REACH</div>
+                                <div>Karix</div>
+                                <div>Market Average</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="metric">TPS Throughput</div>
+                                <div class="nexg-value">60,000 ✓</div>
+                                <div>25,000</div>
+                                <div>20,000-30,000</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="metric">Uptime SLA</div>
+                                <div class="nexg-value">99.995% ✓</div>
+                                <div>99.9%</div>
+                                <div>99.5-99.9%</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="metric">Response Time</div>
+                                <div class="nexg-value">&lt;100ms ✓</div>
+                                <div>&lt;200ms</div>
+                                <div>100-300ms</div>
+                            </div>
+                        </div>
+                        <p class="highlight editable">2.4× Higher Capacity Than Leading Indian Competitor</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 7: Meta Business Partner -->
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Official Meta Business Partner Status - Certified January 2025</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1753166476/pplx_project_search_images/18b929729b103fd0d6e4e24b230b1d5968961ca4.jpg" alt="WhatsApp integration">
+                        </div>
+                        <div class="benefits-list">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🚀</span>
+                                <p class="editable">Priority access to new WhatsApp features</p>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">⚡</span>
+                                <p class="editable">1000+ TPS WhatsApp capacity available</p>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🎯</span>
+                                <p class="editable">Direct Meta support escalation</p>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🔬</span>
+                                <p class="editable">Early beta access to RCS capabilities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 8: Omnichannel Hub -->
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">One Platform. All Channels. Unified Experience.</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1753166475/pplx_project_search_images/fcfbd825ed2bc28a9f5f1383a4ab61b4faf3d655.jpg" alt="Omnichannel messaging">
+                        </div>
+                        <div class="channel-hub">
+                            <div class="hub-center">
+                                <h3 class="editable">nexG REACH</h3>
+                            </div>
+                            <div class="channels">
+                                <div class="channel">SMS</div>
+                                <div class="channel">WhatsApp</div>
+                                <div class="channel">RCS</div>
+                                <div class="channel">Voice</div>
+                                <div class="channel">Email</div>
+                            </div>
+                        </div>
+                        <div class="hub-benefits">
+                            <div class="hub-benefit">
+                                <h4 class="editable">Single API Integration</h4>
+                            </div>
+                            <div class="hub-benefit">
+                                <h4 class="editable">Cross-Channel Context Retention</h4>
+                            </div>
+                            <div class="hub-benefit">
+                                <h4 class="editable">Unified Analytics Dashboard</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 9: AI-Native Architecture -->
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Built for AI vs. Retrofitted for AI</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1748676496/pplx_project_search_images/3b23be847c56b1635d60e28788ef4e10a737266a.jpg" alt="AI chatbot automation">
+                        </div>
+                        <div class="ai-comparison">
+                            <div class="ai-native">
+                                <h3 class="editable">nexG Platforms</h3>
+                                <div class="tag ai-native-tag">AI-NATIVE</div>
+                                <ul>
+                                    <li class="editable">Ground-up AI architecture</li>
+                                    <li class="editable">Native ML processing</li>
+                                    <li class="editable">Real-time intelligence</li>
+                                    <li class="editable">Seamless AI integration</li>
+                                </ul>
+                            </div>
+                            <div class="ai-retrofitted">
+                                <h3 class="editable">Competitors</h3>
+                                <div class="tag ai-retrofit-tag">AI-RETROFITTED</div>
+                                <ul>
+                                    <li class="editable">Legacy system constraints</li>
+                                    <li class="editable">Add-on AI modules</li>
+                                    <li class="editable">Integration complexity</li>
+                                    <li class="editable">Limited AI capabilities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 10: GenAI Chatbot Launch -->
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">GenAI Chatbots: Launching August 2025</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1748716593/pplx_project_search_images/9c14642f265d0e7db424636514e2d214e6988e28.jpg" alt="Chatbot automation features">
+                        </div>
+                        <div class="genai-features">
+                            <div class="genai-feature">
+                                <div class="feature-icon">🎯</div>
+                                <h4 class="editable">Multimodal Input Processing</h4>
+                            </div>
+                            <div class="genai-feature">
+                                <div class="feature-icon">🧠</div>
+                                <h4 class="editable">Contextual Awareness across channels</h4>
+                            </div>
+                            <div class="genai-feature">
+                                <div class="feature-icon">📚</div>
+                                <h4 class="editable">Self-Updating Knowledge Base</h4>
+                            </div>
+                            <div class="genai-feature">
+                                <div class="feature-icon">💭</div>
+                                <h4 class="editable">Integrated Sentiment Analysis</h4>
+                            </div>
+                            <div class="genai-feature">
+                                <div class="feature-icon">🤝</div>
+                                <h4 class="editable">Human Handoff with Full Context</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 11: Industry Solutions -->
+            <div class="slide" data-slide="11">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Pre-Built Solutions for Your Industry</h2>
+                    <div class="slide-body">
+                        <div class="industry-columns">
+                            <div class="industry-column">
+                                <h3 class="editable">BFSI</h3>
+                                <ul>
+                                    <li class="editable">KYC automation</li>
+                                    <li class="editable">OTP delivery</li>
+                                    <li class="editable">Account alerts</li>
+                                    <li class="editable">Loan processing"></li>
+                                    <li class="editable">Fraud prevention</li>
+                                </ul>
+                            </div>
+                            <div class="industry-column">
+                                <h3 class="editable">Healthcare</h3>
+                                <ul>
+                                    <li class="editable">Appointment reminders</li>
+                                    <li class="editable">Test result delivery</li>
+                                    <li class="editable">Medication adherence</li>
+                                    <li class="editable">Emergency notifications</li>
+                                    <li class="editable">Patient engagement</li>
+                                </ul>
+                            </div>
+                            <div class="industry-column">
+                                <h3 class="editable">E-commerce</h3>
+                                <ul>
+                                    <li class="editable">Order notifications</li>
+                                    <li class="editable">Cart abandonment</li>
+                                    <li class="editable">Customer support</li>
+                                    <li class="editable">Promotional campaigns</li>
+                                    <li class="editable">Return management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 12: Platform Licensing -->
+            <div class="slide" data-slide="12">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Unique Platform Licensing Opportunity</h2>
+                    <div class="slide-body">
+                        <div class="licensing-advantages">
+                            <div class="advantage-item">
+                                <h4 class="editable">Deploy under your brand identity</h4>
+                                <p class="editable">Complete white-label solution</p>
+                            </div>
+                            <div class="advantage-item">
+                                <h4 class="editable">Maintain direct customer relationships</h4>
+                                <p class="editable">No third-party intermediaries</p>
+                            </div>
+                            <div class="advantage-item">
+                                <h4 class="editable">Create new revenue streams</h4>
+                                <p class="editable">Platform-as-a-Service opportunities</p>
+                            </div>
+                            <div class="advantage-item">
+                                <h4 class="editable">Leverage our technical infrastructure</h4>
+                                <p class="editable">Proven scalability and reliability</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 13: Security & Compliance -->
+            <div class="slide" data-slide="13">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Enterprise-Grade Security & Compliance</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1748610572/pplx_project_search_images/76011d31316a8090903d933ac0b222fef7449905.jpg" alt="Cloud infrastructure security">
+                        </div>
+                        <div class="certifications">
+                            <div class="cert-item">
+                                <h4 class="editable">ISO 27001:2013</h4>
+                                <p class="editable">Information Security Management</p>
+                            </div>
+                            <div class="cert-item">
+                                <h4 class="editable">ISO 9001:2015</h4>
+                                <p class="editable">Quality Management Systems</p>
+                            </div>
+                            <div class="cert-item">
+                                <h4 class="editable">GDPR Compliance</h4>
+                                <p class="editable">Data Protection Regulation</p>
+                            </div>
+                            <div class="cert-item">
+                                <h4 class="editable">CERT-IN VAPT</h4>
+                                <p class="editable">Vulnerability Assessment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 14: Customer Success -->
+            <div class="slide" data-slide="14">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Your Success is Our Priority</h2>
+                    <div class="slide-body">
+                        <div class="success-metrics">
+                            <div class="metric-large">
+                                <h3 class="editable">92%</h3>
+                                <p class="editable">Customer retention rate</p>
+                            </div>
+                            <div class="metric-large">
+                                <h3 class="editable">35%</h3>
+                                <p class="editable">Efficiency improvement</p>
+                            </div>
+                            <div class="metric-large">
+                                <h3 class="editable">6 months</h3>
+                                <p class="editable">Average payback period</p>
+                            </div>
+                        </div>
+                        <div class="support-framework">
+                            <h4 class="editable">Dedicated Support Team Structure</h4>
+                            <div class="support-timeline">
+                                <div class="timeline-item">
+                                    <span class="timeline-step">1</span>
+                                    <p class="editable">Technical Deep-Dive Demo</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-step">2</span>
+                                    <p class="editable">Pilot Program Launch</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="timeline-step">3</span>
+                                    <p class="editable">Strategic Partnership Discussion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 15: Competitive Positioning -->
+            <div class="slide" data-slide="15">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Why Choose nexG Over Alternatives?</h2>
+                    <div class="slide-body">
+                        <div class="competitive-table">
+                            <div class="comp-header">
+                                <div></div>
+                                <div class="nexg-col">nexG REACH</div>
+                                <div>Twilio</div>
+                                <div>Karix</div>
+                                <div>Infobip</div>
+                            </div>
+                            <div class="comp-row">
+                                <div class="feature">AI-Native Architecture</div>
+                                <div class="nexg-check">✓</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                            </div>
+                            <div class="comp-row">
+                                <div class="feature">Meta Business Partner</div>
+                                <div class="nexg-check">✓</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                            </div>
+                            <div class="comp-row">
+                                <div class="feature">60K TPS Capacity</div>
+                                <div class="nexg-check">✓</div>
+                                <div>~</div>
+                                <div>✗</div>
+                                <div>~</div>
+                            </div>
+                            <div class="comp-row">
+                                <div class="feature">Platform Licensing</div>
+                                <div class="nexg-check">✓</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                                <div>✗</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 16: Implementation Roadmap -->
+            <div class="slide" data-slide="16">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Your Path to Communication Excellence</h2>
+                    <div class="slide-body">
+                        <div class="implementation-roadmap">
+                            <div class="roadmap-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4 class="editable">Technical Deep-Dive Demo</h4>
+                                    <p class="editable">Platform capabilities showcase</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-arrow">→</div>
+                            <div class="roadmap-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4 class="editable">Pilot Program Launch</h4>
+                                    <p class="editable">2 weeks to pilot deployment</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-arrow">→</div>
+                            <div class="roadmap-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4 class="editable">Strategic Partnership</h4>
+                                    <p class="editable">4 weeks to decision, 8 weeks to go-live</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-summary">
+                            <p class="editable"><strong>Total Timeline:</strong> Demo → Pilot (২ weeks) → Decision (4 weeks) → Go-Live (8 weeks)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 17: Call to Action -->
+            <div class="slide" data-slide="17">
+                <div class="slide-content">
+                    <h2 class="slide-title editable">Transform Your Enterprise Communication Today</h2>
+                    <div class="slide-body">
+                        <div class="slide-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1753166475/pplx_project_search_images/78f0bf48887ead17c59b5c9fb69e4cd4c68f1118.jpg" alt="Business executives collaborating">
+                        </div>
+                        <div class="cta-content">
+                            <div class="cta-message">
+                                <h3 class="editable">The Market is Moving Fast. Are You Ready?</h3>
+                                <p class="editable">Join 500+ enterprise clients who trust nexG Platforms for their mission-critical communications.</p>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="contact-label">Email:</span>
+                                    <span class="editable">business@nexgplatforms.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">Phone:</span>
+                                    <span class="editable">+91-124-XXXXXXX</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">Website:</span>
+                                    <span class="editable">www.nexgplatforms.com</span>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary btn--lg cta-button">Schedule Your Demo Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Thumbnails -->
+        <div class="slide-thumbnails" id="slideThumbnails"></div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal" id="editModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Content</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <textarea id="editTextarea" class="form-control" rows="4"></textarea>
+                <div class="modal-actions">
+                    <button class="btn btn--secondary" id="cancelEdit">Cancel</button>
+                    <button class="btn btn--primary" id="saveEdit">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Libraries for PPTX Export -->
+    <script src="https://unpkg.com/pptxgenjs@3.11.0/dist/pptxgen.min.js" defer></script>
+    <!-- App Script -->
+    <script src="app.js" defer></script>
+</body>
+</html>
